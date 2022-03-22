@@ -11,6 +11,6 @@ class Team:
     def has_player(self, player):
         return player in self.players
     
-    def play_game(self, game_played):
-        if game_played:
+    def play_game(self, game_won):
+        if game_won:
             self.points += 3
